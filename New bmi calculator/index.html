@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="SectionHeader">
+        <h2>BMI CALCULATOR</h2>
+        <p class="creator">by Michael Chisom</p>
+    </div>
+
+    <div class="calculatorSelector">
+        <div class="calculator glow">
+            <form action="">
+                <div>
+                    <label for="firstName">First Name: </label>
+                    <input type="text" id="firstName">
+                </div>
+                <div>
+                    <label for="lastName">Last Name: </label>
+                    <input type="text" id="lastName">
+                </div>
+                <div> 
+                    <label for="weight">Mass: </label>
+                    <input type="number" name="" id="mass" placeholder="Enter mass in kg">
+                </div>
+                <div>
+                    <label for="height">Height: </label>
+                    <input type="number" name="" id="height" placeholder="Enter height in meters">
+                </div>
+            </form>
+
+            <div class="btnDiv">
+                <button class="btn" onclick="calculatebtn()">Calculate BMI</button>
+            </div>
+        </div>
+
+    </div>
+ 
+    <div class="result">
+        <p class="Result"> YOUR BMI RESULT IS.......</p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
